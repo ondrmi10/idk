@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #555555;
+    background-color: #f7f7ff;
+}
+h1{
+    font-size: 6em;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    color: #0b0b15
+}
+h2{
+    color: #0b0b15
+}
+h3{
+    color: #0b0b15
+    
+}
+header h2{
+    font-size: 2em;
+    color: #ff9301;
+    margin: 0;
+}
+
+.kolecko{
+    position: relative;
+}
+.kolecko::before{
+    content:'';
+    background-color: #ff9301;
+    height: 1em;
+    width: 1em;
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
